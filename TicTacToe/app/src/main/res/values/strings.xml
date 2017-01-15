@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="player_label_1">Player #1</string>
+    <string name="player_label_2">Player #2</string>
+    <string name="draws_count_label">Draws</string>
+    <string name="restart_button_label">New Game</string>
+</resources>

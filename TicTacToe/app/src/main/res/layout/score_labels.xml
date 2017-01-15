@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/player_label_1"
+            style="@style/ScoreHeader"
+            android:textColor="@color/playerColor1" />
+
+        <TextView
+            android:id="@+id/playerScore1"
+            android:text="0"
+            android:textColor="@color/playerColor1"
+            style="@style/ScoreText"/>
+
+        <ImageView
+            android:id="@+id/playerIndicator1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="@color/playerColor1"
+            android:src="@drawable/player_turn_indicator"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/draws_count_label"
+            android:textColor="@color/scoreLabelColor"
+            style="@style/ScoreHeader"/>
+
+        <TextView
+            android:id="@+id/drawsCount"
+            android:text="0"
+            android:textColor="@color/scoreLabelColor"
+            style="@style/ScoreText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/player_label_2"
+            android:textColor="@color/playerColor2"
+            style="@style/ScoreHeader" />
+
+        <TextView
+            android:id="@+id/playerScore2"
+            android:text="0"
+            android:textColor="@color/playerColor2"
+            style="@style/ScoreText"/>
+
+        <ImageView
+            android:id="@+id/playerIndicator2"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="@color/playerColor2"
+            android:src="@drawable/player_turn_indicator"/>
+    </LinearLayout>
+</LinearLayout>

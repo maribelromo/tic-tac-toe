@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="activity_margin">25dp</dimen>
+    <dimen name="board_divider_width">2dp</dimen>
+    <dimen name="board_margin">40dp</dimen>
+</resources>

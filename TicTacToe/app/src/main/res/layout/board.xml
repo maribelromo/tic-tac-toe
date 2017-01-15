@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button0"
+            style="@style/BoardButton">
+            <tag android:id="@integer/row" android:value="0"/>
+            <tag android:id="@integer/column" android:value="0"/>
+        </Button>
+
+        <View style="@style/TableVerticalDivider"/>
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/BoardButton">
+            <tag android:id="@integer/row" android:value="0"/>
+            <tag android:id="@integer/column" android:value="1"/>
+        </Button>
+
+        <View style="@style/TableVerticalDivider"/>
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/BoardButton">
+            <tag android:id="@integer/row" android:value="0"/>
+            <tag android:id="@integer/column" android:value="2"/>
+        </Button>
+    </TableRow>
+
+    <View style="@style/TableHorizontalDivider"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/BoardButton">
+            <tag android:id="@integer/row" android:value="1"/>
+            <tag android:id="@integer/column" android:value="0"/>
+        </Button>
+
+        <View style="@style/TableVerticalDivider"/>
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/BoardButton">
+            <tag android:id="@integer/row" android:value="1"/>
+            <tag android:id="@integer/column" android:value="1"/>
+        </Button>
+
+        <View style="@style/TableVerticalDivider"/>
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/BoardButton">
+            <tag android:id="@integer/row" android:value="1"/>
+            <tag android:id="@integer/column" android:value="2"/>
+        </Button>
+    </TableRow>
+
+    <View style="@style/TableHorizontalDivider"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/BoardButton">
+            <tag android:id="@integer/row" android:value="2"/>
+            <tag android:id="@integer/column" android:value="0"/>
+        </Button>
+
+        <View style="@style/TableVerticalDivider"/>
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/BoardButton">
+            <tag android:id="@integer/row" android:value="2"/>
+            <tag android:id="@integer/column" android:value="1"/>
+        </Button>
+
+        <View style="@style/TableVerticalDivider"/>
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/BoardButton">
+            <tag android:id="@integer/row" android:value="2"/>
+            <tag android:id="@integer/column" android:value="2"/>
+        </Button>
+    </TableRow>
+</TableLayout>
